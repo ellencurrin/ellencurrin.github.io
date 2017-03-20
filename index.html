@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>interMAPtive</title>
+    <title>Ellen</title>
     
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -14,75 +14,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!-- FONT AWESOME-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    
-    <style>
-        .navbar-inverse { background-color: #222222}
-        .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #}
-        .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #080808}
-        .dropdown-menu { background-color: #ffffff}
-        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428bca}
-        .navbar-inverse { background-image: none; }
-        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
-        .navbar-inverse { border-color: #080808}
-        .navbar-inverse .navbar-brand { color: #fff}
-        .navbar-inverse .navbar-brand:hover { color: #ffffff}
-        .navbar-inverse .navbar-nav>li>a { color: #999999}
-        .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #ffffff}
-        .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #ffffff}
-        .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #ffffff}
-        .dropdown-menu>li>a { color: #333333}
-        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #ffffff}
-        .navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
-        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #ffffff}
-        .navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
-        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #ffffff}
-        
-        .content {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-        .card {
-            text-align: center;
-            vertical-align: middle;
-            padding: .5em;
-        }
-        .outline {
-            padding: 5em;
-            background-size: 100% auto;
-            height: 225px;
-        }
-        .outline h3 {
-            visibility: visible;
-            color: #999;
-            opacity: .5;
-            text-shadow:    
-               -1px -1px #fff,  
-                1px -1px #fff,
-                -1px 1px #fff,
-                 1px 1px #fff;
-        }
-        .outline:hover h3{
-            color: #666;
-            opacity: 1;
-            visibility: visible;
-            text-shadow:    
-               -1px -1px #fff,  
-                1px -1px #fff,
-                -1px 1px #fff,
-                 1px 1px #fff;
-        }
-        .outline:hover a{
-            color: #999;
-        }
-
-    </style>
-    
+    <!-- CSS-->
+    <link rel="stylesheet" href="style/style.css">   
 </head>
 
 
 <body>
 
-<header class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
+<header class="navbar navbar-inverse navbar-fixed-top" bs-docs-nav" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -91,72 +30,167 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html" class="navbar-brand">interMAPtive</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav navbar-right">
+        <!--li>
+          <a href="#top">HOME</a>
+        </li-->
         <li>
-          <a href="index.html">Projects</a>
+          <a href="#portfolio">PORTFOLIO</a>
         </li>
         <li>
-          <a href="radical.html">About Radical Cartography</a>
+          <a href="#about">ABOUT ME</a>
         </li>
         <li>
-          <a href="me.html">About the Cartographer</a>
+          <a href="#hi">SAY HI 👋</a>
         </li>
-      </ul>
+        
     </nav>
   </div>
 </header>
 
+<div class="top"></div>
 <div class= "content">
-    <div style="text-align: center; margin: 50px;">
-        <h1>interMAPtive</h1>
-        <h4><i>rethinking spaces with maps that move</i></h4>
+    <div class="row" style="text-align: center;">
+        <h1 style="font-size: 3em;"><strong>HI, I'M ELLEN.</strong></h1>
+        <h2>I'm a smart lady, driven by curiousity.</h2>
+        <h3>I love <a href="#portfolio">maps</a>, mountains, mushrooms, and <a href="http://instagram.com/winifredthebully">my dog</a>. You can find out <a href="#about">more about me here</a>, or check out my portfolio of <a href="#portfolio">maps, apps, and websites</a>.</h3>
+        <h2>🍄 🌲 ❤️️ 🐶 🌎 </h2>
+        <h3>Like what you see? <a href="#hi">Say hi.</a></h3>
     </div>
-    <a href="http://ellencurrin.github.io/UNCsolarMap/">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/uncsolar.png');">
-                <h3>UNC Solar Map</h3>
-            </div>
-        </div>
-    </a>
-    <a href="http://ellencurrin.github.io/twincities/">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/twincities.png');">
-                <h3>Twin Cities</h3>
-            </div>
-        </div>
-    </a>
-    <a href="http://ellencurrin.com/ncbikesafety/">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/ncbikes.png');">
-                <h3>NC Bike Safety</h3>
-            </div>
-        </div>
-    </a>
-    <a href="http://ellencurrin.github.io/ukgeog/">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/ukgeog.png');">
-                <h3>British Geographies</h3>
-            </div>
-        </div>
-    </a>
-    <a href="radical.html">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/mississippi.png');">
-                <h3>About Radical Cartography</h3>
-            </div>
-        </div>
-    </a>
-    <a href="me.html">
-        <div class="col-md-4 card">
-            <div class="outline" style="background-image:url('images/stamen.png');">
-                <h3>About the Cartographer</h3>
-            </div>
-        </div>
-    </a>
 </div>
+<div style="padding-top: 50px;">
+    <img src="images/ellen.jpg" style="width: 100%;">
+</div>
+<!--div>
+    <div class="col-md-6">
+        <h2>CARTOGRAPHY</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>DESIGN//DEVELOPMENT</h2>
+    </div>
+</div-->
+<div id="portfolio" class="content" style="padding-top: 50px;">
+    <h1 style="text-align: center;">PORTFOLIO</h1>
+    <h3 style="text-align: center;"> As a Cartographer, my skills are at the intersection of art, analysis, data, design, visualization, technology, coding, and storytelling. I’ve used these skills not only to make maps, but also to design user interfaces, develop websites, and build apps.</h3>
+</div>
+<div style="margin-right: 5%; margin-left: 5%; padding-top: 50px;">
+    <div class="row">
+        <a href="http://ellencurrin.github.io/UNCsolarMap/" target="_blank" >
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/uncsolar.png');"></div>
+                <div>
+                    <h4><b>UNC SOLAR POTENTIAL MAP</b></h4>
+                    <h4>Solar potential web app built using javascript, python, html, and css.</h4>
+                </div>
+            </div>
+        </a>
+        <a href="http://ellencurrin.github.io/coalash_BETA/" target="_blank">
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/coalash2.png');"></div>
+                <div>
+                    <h4><b>COAL ASH PONDS MAP</b></h4>
+                    <h4>Interactive map, built for SELC using leaflet.js and turf.js, explores coal ash pollution in the Southeastern USA.</h4>
+                </div>
+            </div>
+        </a>
+            <a href="http://ellencurrin.github.io/intermaptive/" target="_blank">
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/haroldfisk.jpg');"></div>
+                <div>
+                    <h4><b>InterMAPtive</b></h4>
+                    <h4>Custom, responsive website showcases "radical" cartographies that push our understanding of "space".</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="http://ellencurrin.github.io/twincities/" target="_blank" >
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/twincities.png');"></div>
+                <div>
+                    <h4><b>INTERACTIVE MAP OF TWIN CITIES</b></h4>
+                    <h4>Javascript and the Google Maps API lend a new perspective to the US-Mexico "border".</h4>
+                </div>
+            </div>
+        </a>
+        <a href="http://ellencurrin.github.io/NC-bike-stats/" target="_blank" >
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/ncbikes.png');"></div>
+                <div>
+                    <h4><b>NC BIKE DATA DASHBOARD</b></h4>
+                    <h4>Interactive data visualization uses carto.js and highcharts.js to explore bike accident stats in NC.</h4>
+                </div>
+            </div>
+        </a>
+        <a href="http://ellencurrin.github.io/ukgeog/" target="_blank" >
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/ukgeog.png');"></div>
+                <div>
+                    <h4><b>BRITISH GEOGRAPHIES EXPLORER</b></h4>
+                    <h4>Interactive, educational tool built using javascript explores borders and sovereignty in the UK. </h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="http://ellencurrin.github.io/us-border-history-2/ " target="_blank">
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/us-mexico.jpg');"></div>
+                <div>
+                    <h4><b>US-MEXICO BORDER STORY</b></h4>
+                    <h4>Interactive, educational tool built using javascript and HTML explores the history of the US-Mexico border.</h4>
+                </div>
+            </div>
+        </a>
+        <a href="http://www.lovelandresearch.org" target="_blank">
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/loveland.png');"></div>
+                <div>
+                    <h4><b>LOVELAND RESEARCH WEBSITE</b></h4>
+                    <h4>Website built using Squarespace and custom CSS for LOVELAND Research (501c3).</h4>
+                </div>
+            </div>
+        </a>
+        <a href="http://www.mamacoosboutique.com" target="_blank">
+            <div class="col-md-4 card">
+                <div class="outline" style="background-image:url('images/mamacoos2.png');"></div>
+                <div>
+                    <h4><b>MAMA COO'S BOUTIQUE WEBSITE</b></h4>
+                    <h4>Website built using Wordpress for a local Detroit boutique.</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<img src="images/shroomdog.jpeg" style="width: 100%; padding-top: 50px">
+
+<div id="about" class= "content" style="padding-top: 50px;">
+    <h1 style="text-align: center;">ABOUT ME</h1>
+    <h3>💸 HASHTAG STARTUP 💸</h3>
+    <p>I moved from NC to Detroit after receiving <a href="http://ventureforamerica.org">this fellowship</a> for young Entrepreneurs. WTF is an Entrepreneur? Honestly, I’m still not quite sure what an entrepreneur is or if I am one, but I have cut my teeth at a couple of startups. At <a href="http://magicbus.io">MagicBus</a>, I managed the launch of a new company in a new city as Director of Detroit Operations.  At <a href="http://makeloveland.com">LOVELAND Technologies</a>, I collected user research, played around with parcel data, consulted on client mapping projects, and unloaded the dishwasher (a lot).</p>  
+    <h3>🌏 CARTOGRAPHY ISN’T DEAD 🌏</h3>
+    <p>I’ve always been fascinated by the way people interpret and represent space. I honed my digital skills as a Web Cartographer at the Southern Environmental Law Center, where I used <b>leaflet.js</b>, <b>mapbox.js</b>, and <b>turf.js</b> to build <a href="http://ellencurrin.github.io/coalash_BETA/">interactive data projects</a>. I won the Herbert G Stout Award for Innovative Use of GIS in 2014, and the McNally Award for Excellence in Geography in 2015. In 2015 I presented a <a href="http://ellencurrin.github.io/UNCsolarMap/">solar mapping application</a> I built at the NC GIS Conference.</p> 
+    <h3>🍄 MOUNTAINS AND MUSHROOMS 🍄</h3>
+    <p>Making maps, apps, and websites keeps me on my computer a lot. But the truth is, I’d almost always rather be outside. I love rock climbing, foraging for mushrooms, and hiking with my rescued pit bull. If it is too rainy for outside adventures, I’ll probably be in the kitchen making and/or drinking something fermented.</p>
+    <h3>👋 SAY HI 👋</h3>
+    <p>Want to collaborate? <a href="#hi">Get in touch</a>.</p>
+</div>
+
+<img src="images/moss.jpg" style="width: 100%; padding-top: 50px">
+
+<div id="hi" class= "content" style="padding-top: 50px; padding-bottom: 50px; text-align: center">
+<h2>🍄 🌲 ❤️️ 🐶 🌎 </h2>
+<h3>Ellen Currin</h3>
+<h4><a href="mailto:ellen.c.currin@gmail.com">ellen.c.currin@gmail.com</a></h4>
+<span>
+    <a href="in.com/in/ellen-currin-b9733998"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" style="color:#002b36;"></i></a>
+    <a href="https://github.com/ellencurrin/"><i class="fa fa-2x fa-github-square" aria-hidden="true" style="color:#002b36;"></i></a>
+</span>
+</div>
+<div class="my-footer"></div>
 
 
 </body>

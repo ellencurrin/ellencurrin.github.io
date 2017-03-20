@@ -1,0 +1,110 @@
+.navbar-inverse { background-color: #FDF6E3}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FDF6E3}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #FDF6E3}
+.dropdown-menu { background-color: #FDF6E3}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FDF6E3; color:#FFB3D6; text-decoration: none;}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; text-decoration: none;}
+.navbar-inverse { border-color: #FDF6E3}
+.navbar-inverse .navbar-brand { color: #002B36}
+.navbar-inverse .navbar-brand:hover { color: #FFB3D6; text-decoration: none}
+.navbar-inverse .navbar-nav>li>a { color: #002B36}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFB3D6; text-decoration: none;}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #D33682}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #D33682}
+.navbar-inverse .navbar-nav>li>a:active { color: #D33682}
+.dropdown-menu>li>a { color: #002b36}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {background-color: #FDF6E3; color: #FFB3D6; text-decoration: none;}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #002B36}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #002B36}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #002B36}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #002B36}
+.navbar-inverse .navbar-toggle .icon-bar {background-color: #002B36;}
+.icon-bar:hover {background-color: #FDF6E3;}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {background-color: #FDF6E3;}
+.caret {display: none;}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {background-color: #FDF6E3; background-image: none; box-shadow: none; -webkit-box-shadow: none;}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color: #002B36;}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {color: #FFB3D6; text-decoration: none;}
+
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    color: #002b36;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+    background-color: #FDF6E3;
+    padding-top: 70px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color: #D33682;
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.card {
+    text-align: center;
+    vertical-align: middle;
+    padding: .5em;
+    color: #23527c;
+}
+
+.card:hover {
+    background-color: #eee8d5;
+    color: #D33682;
+}
+.outline {
+    padding: 5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 225px;
+}
+.outline h3 {
+    visibility: visible;
+    color: #999;
+    opacity: .5;
+    text-shadow:    
+       -1px -1px #fff,  
+        1px -1px #fff,
+        -1px 1px #fff,
+         1px 1px #fff;
+}
+.outline:hover h3{
+    color: #666;
+    opacity: 1;
+    visibility: visible;
+    text-shadow:    
+       -1px -1px #fff,  
+        1px -1px #fff,
+        -1px 1px #fff,
+         1px 1px #fff;
+}
+.outline:hover a{
+    color: #999;
+}
+
+.img-sq {
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.my-footer {
+    background-image: url('../images/topo-clear.png');
+    background-size: cover;
+    height: 250px;
+    opacity: .7;
+    border-top: 2px black solid;
+}
+
+
