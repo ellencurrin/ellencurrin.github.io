@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Ellen</title>
+    <title>Ellen Currin</title>
     
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -55,9 +55,9 @@
     <div class="row" style="text-align: center;">
         <h1 style="font-size: 3em;"><strong>HI, I'M ELLEN.</strong></h1>
         <h2>I'm a smart lady, driven by curiousity.</h2>
-        <h3>I love <a href="#portfolio">maps</a>, mountains, mushrooms, and <a href="http://instagram.com/winifredthebully">my dog</a>. You can find out <a href="#about">more about me here</a>, or check out my portfolio of <a href="#portfolio">maps, apps, and websites</a>.</h3>
+        <p>I love <a href="#portfolio">maps</a>, mountains, mushrooms, and <a href="http://instagram.com/winifredthebully">my dog</a>. You can find out <a href="#about">more about me here</a>, or check out my portfolio of <a href="#portfolio">maps, apps, and websites</a>.</p>
         <h2>🍄 🌲 ❤️️ 🐶 🌎 </h2>
-        <h3>Like what you see? <a href="#hi">Say hi.</a></h3>
+        <p>Like what you see? <a href="#hi">Say hi.</a></p>
     </div>
 </div>
 <div style="padding-top: 50px;">
@@ -73,7 +73,7 @@
 </div-->
 <div id="portfolio" class="content" style="padding-top: 50px;">
     <h1 style="text-align: center;">PORTFOLIO</h1>
-    <h3 style="text-align: center;"> As a Cartographer, my skills are at the intersection of art, analysis, data, design, visualization, technology, coding, and storytelling. I’ve used these skills not only to make maps, but also to design user interfaces, develop websites, and build apps.</h3>
+    <p style="text-align: center;"> As a Cartographer, my skills are at the intersection of art, analysis, data, design, visualization, technology, coding, and storytelling. I’ve used these skills not only to make maps, but also to design user interfaces, develop websites, and build apps.</p>
 </div>
 <div style="margin-right: 5%; margin-left: 5%; padding-top: 50px;">
     <div class="row">
@@ -169,8 +169,8 @@
 
 <div id="about" class= "content" style="padding-top: 50px;">
     <h1 style="text-align: center;">ABOUT ME</h1>
-    <h3>💸 HASHTAG STARTUP 💸</h3>
-    <p>I moved from NC to Detroit after receiving <a href="http://ventureforamerica.org">this fellowship</a> for young Entrepreneurs. WTF is an Entrepreneur? Honestly, I’m still not quite sure what an entrepreneur is or if I am one, but I have cut my teeth at a couple of startups. At <a href="http://magicbus.io">MagicBus</a>, I managed the launch of a new company in a new city as Director of Detroit Operations.  At <a href="http://makeloveland.com">LOVELAND Technologies</a>, I collected user research, played around with parcel data, consulted on client mapping projects, and unloaded the dishwasher (a lot).</p>  
+    <h3 class="sp4">💸 HASHTAG STARTUP 💸</h3>
+    <p class="sp2">I moved from NC to Detroit after receiving <a href="http://ventureforamerica.org">this fellowship</a> for young Entrepreneurs. WTF is an Entrepreneur? Honestly, I’m still not quite sure what an entrepreneur is or if I am one, but I have cut my teeth at a couple of startups. At <a href="http://magicbus.io">MagicBus</a>, I managed the launch of a new company in a new city as Director of Detroit Operations.  At <a href="http://makeloveland.com">LOVELAND Technologies</a>, I collected user research, played around with parcel data, consulted on client mapping projects, and unloaded the dishwasher (a lot).</p>  
     <h3>🌏 CARTOGRAPHY ISN’T DEAD 🌏</h3>
     <p>I’ve always been fascinated by the way people interpret and represent space. I honed my digital skills as a Web Cartographer at the Southern Environmental Law Center, where I used <b>leaflet.js</b>, <b>mapbox.js</b>, and <b>turf.js</b> to build <a href="http://ellencurrin.github.io/coalash_BETA/">interactive data projects</a>. I won the Herbert G Stout Award for Innovative Use of GIS in 2014, and the McNally Award for Excellence in Geography in 2015. In 2015 I presented a <a href="http://ellencurrin.github.io/UNCsolarMap/">solar mapping application</a> I built at the NC GIS Conference.</p> 
     <h3>🍄 MOUNTAINS AND MUSHROOMS 🍄</h3>
@@ -182,8 +182,9 @@
 <img src="images/moss.jpg" style="width: 100%; padding-top: 50px">
 
 <div id="hi" class= "content" style="padding-top: 50px; padding-bottom: 50px; text-align: center">
+<!--h1 style="text-align: center;">SAY HI</h1-->
 <h2>🍄 🌲 ❤️️ 🐶 🌎 </h2>
-<h3>Ellen Currin</h3>
+<h3 style="margin-top: 20px;">Ellen Currin</h3>
 <h4><a href="mailto:ellen.c.currin@gmail.com">ellen.c.currin@gmail.com</a></h4>
 <span>
     <a href="in.com/in/ellen-currin-b9733998"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" style="color:#002b36;"></i></a>
@@ -194,4 +195,21 @@
 
 
 </body>
+
+<script type="text/javascript">
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+</script>
 </html>
