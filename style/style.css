@@ -11,7 +11,8 @@
 .navbar-inverse .navbar-nav>li>a { color: #002B36}
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFB3D6}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #002B36}
-.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFB3D6}
+.navbar-inverse .navbar-nav>li>a:hover { color: #FFB3D6}
+.navbar-inverse .navbar-nav>li>a:focus {color: #002B36;}
 .dropdown-menu>li>a { color: #002B36}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #002B36}
 .navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #002B36}
